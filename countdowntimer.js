@@ -11,7 +11,7 @@ function countdown( elementName, minutes, seconds )
     {
         msLeft = endTime - (+new Date);
         if ( msLeft < 1000 ) {
-            element.innerHTML = "Time is up!";
+            element.innerHTML = "End";
         } else {
             time = new Date( msLeft );
             hours = time.getUTCHours();
